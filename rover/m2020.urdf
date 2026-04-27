@@ -285,6 +285,7 @@
 			</geometry>
 		</visual>
 	</link>
+<!-- DISABLED_ARM_REMOVAL_2026-04-27 (uncomment + re-run scripts/phase1/convert_urdf_to_usd.py to restore)
 	<link name="Body_RA_Base">
 		<inertial>
 			<origin xyz="0 0 0" rpy="0 -0 0"/>
@@ -292,6 +293,8 @@
 			<inertia ixx="2.666667e-02" ixy="0" ixz="0" iyy="2.666667e-02" iyz="0" izz="2.666667e-02"/>
 		</inertial>
 	</link>
+-->
+<!-- DISABLED_ARM_REMOVAL_2026-04-27 (uncomment + re-run scripts/phase1/convert_urdf_to_usd.py to restore)
 	<link name="Body_RA_Link1">
 		<inertial>
 			<origin xyz="-1.1756 0.4515 -0.3116" rpy="0 -0 0"/>
@@ -305,6 +308,8 @@
 			</geometry>
 		</visual>
 	</link>
+-->
+<!-- DISABLED_ARM_REMOVAL_2026-04-27 (uncomment + re-run scripts/phase1/convert_urdf_to_usd.py to restore)
 	<link name="Body_RA_Link2">
 		<inertial>
 			<origin xyz="-1.3416 0.4515 -0.3116" rpy="0 -0 0"/>
@@ -318,6 +323,8 @@
 			</geometry>
 		</visual>
 	</link>
+-->
+<!-- DISABLED_ARM_REMOVAL_2026-04-27 (uncomment + re-run scripts/phase1/convert_urdf_to_usd.py to restore)
 	<link name="Body_RA_Link3">
 		<inertial>
 			<origin xyz="-2.161 0.4515 -0.3116" rpy="0 -0 0"/>
@@ -331,6 +338,8 @@
 			</geometry>
 		</visual>
 	</link>
+-->
+<!-- DISABLED_ARM_REMOVAL_2026-04-27 (uncomment + re-run scripts/phase1/convert_urdf_to_usd.py to restore)
 	<link name="Body_RA_Link4">
 		<inertial>
 			<origin xyz="-2.9143 0.4515 -0.3116" rpy="0 -0 0"/>
@@ -344,6 +353,8 @@
 			</geometry>
 		</visual>
 	</link>
+-->
+<!-- DISABLED_ARM_REMOVAL_2026-04-27 (uncomment + re-run scripts/phase1/convert_urdf_to_usd.py to restore)
 	<link name="Body_RA_Link5">
 		<inertial>
 			<origin xyz="-2.7386 0.2724 -0.3116" rpy="0 -0 0"/>
@@ -357,6 +368,8 @@
 			</geometry>
 		</visual>
 	</link>
+-->
+<!-- DISABLED_ARM_REMOVAL_2026-04-27 (uncomment + re-run scripts/phase1/convert_urdf_to_usd.py to restore)
 	<link name="Body_Turret">
 		<inertial>
 			<origin xyz="0 0 0" rpy="0 -0 0"/>
@@ -370,12 +383,15 @@
 			</geometry>
 		</visual>
 	</link>
+-->
+<!-- DISABLED_ARM_REMOVAL_2026-04-27 (uncomment + re-run scripts/phase1/convert_urdf_to_usd.py to restore)
 	<link name="Body_CorerFeed">
 		<inertial>
 			<origin xyz="-2.5301 0.272349 0.0168656" rpy="0 -0 0"/>
 			<mass value="30.0000"/>
 			<inertia ixx="2.000000e-01" ixy="0" ixz="0" iyy="1.000000e+00" iyz="0" izz="1.000000e+00"/>
 		</inertial>
+-->
 		<!-- hidden visual element
 		<visual name="VisGeom_LaunchBit">
 			<origin xyz="0.208499 -5.1e-05 -3.438e-05" rpy="0 -0 0"/>
@@ -384,12 +400,14 @@
 			</geometry>
 		</visual>
 		-->
+<!-- DISABLED_ARM_REMOVAL_2026-04-27 (uncomment + re-run scripts/phase1/convert_urdf_to_usd.py to restore)
 		<visual name="VisGeom_AbradingBit">
 			<origin xyz="0.208499 -5.1e-05 -3.438e-05" rpy="0 -0 0"/>
 			<geometry>
 				<mesh filename="./meshes/AbradingBitInTurretAtZeroFeed.gltf" scale="1 1 1"/>
 			</geometry>
 		</visual>
+-->
 		<!-- hidden visual element
 		<visual name="VisGeom_CoringBit">
 			<origin xyz="0.208499 -5.1e-05 -3.438e-05" rpy="0 -0 0"/>
@@ -406,7 +424,10 @@
 			</geometry>
 		</visual>
 		-->
+<!-- DISABLED_ARM_REMOVAL_2026-04-27 (uncomment + re-run scripts/phase1/convert_urdf_to_usd.py to restore)
 	</link>
+-->
+<!-- DISABLED_ARM_REMOVAL_2026-04-27 (uncomment + re-run scripts/phase1/convert_urdf_to_usd.py to restore)
 	<link name="Body_StabilizerFar">
 		<inertial>
 			<origin xyz="-2.5301 0.272349 0.0168656" rpy="0 -0 0"/>
@@ -420,6 +441,8 @@
 			</geometry>
 		</visual>
 	</link>
+-->
+<!-- DISABLED_ARM_REMOVAL_2026-04-27 (uncomment + re-run scripts/phase1/convert_urdf_to_usd.py to restore)
 	<link name="Body_StabilizerNear">
 		<inertial>
 			<origin xyz="-2.5301 0.272349 0.0168656" rpy="0 -0 0"/>
@@ -433,6 +456,8 @@
 			</geometry>
 		</visual>
 	</link>
+-->
+<!-- DISABLED_ARM_REMOVAL_2026-04-27 (uncomment + re-run scripts/phase1/convert_urdf_to_usd.py to restore)
 	<link name="Body_WATSON_Cap">
 		<inertial>
 			<origin xyz="-2.6025 0.581204 0.0309103" rpy="0 -0 0"/>
@@ -446,6 +471,8 @@
 			</geometry>
 		</visual>
 	</link>
+-->
+<!-- DISABLED_ARM_REMOVAL_2026-04-27 (uncomment + re-run scripts/phase1/convert_urdf_to_usd.py to restore)
 	<link name="Body_SHERLOC_Cap">
 		<inertial>
 			<origin xyz="-2.86084 0.58439 -0.0124626" rpy="0 -0 0"/>
@@ -459,6 +486,7 @@
 			</geometry>
 		</visual>
 	</link>
+-->
 	<link name="Frame_RNAV">
 		<inertial>
 			<origin xyz="0 0 0" rpy="0 -0 0"/>
@@ -886,6 +914,7 @@
 			<inertia ixx="1.000000e-06" ixy="0" ixz="0" iyy="1.000000e-06" iyz="0" izz="1.000000e-06"/>
 		</inertial>
 	</link>
+<!-- DISABLED_ARM_REMOVAL_2026-04-27 (uncomment + re-run scripts/phase1/convert_urdf_to_usd.py to restore)
 	<link name="Frame_RA_BASE">
 		<inertial>
 			<origin xyz="0 0 0" rpy="0 -0 0"/>
@@ -893,6 +922,8 @@
 			<inertia ixx="1.000000e-06" ixy="0" ixz="0" iyy="1.000000e-06" iyz="0" izz="1.000000e-06"/>
 		</inertial>
 	</link>
+-->
+<!-- DISABLED_ARM_REMOVAL_2026-04-27 (uncomment + re-run scripts/phase1/convert_urdf_to_usd.py to restore)
 	<link name="Frame_RA1">
 		<inertial>
 			<origin xyz="0 0 0" rpy="0 -0 0"/>
@@ -900,6 +931,8 @@
 			<inertia ixx="1.000000e-06" ixy="0" ixz="0" iyy="1.000000e-06" iyz="0" izz="1.000000e-06"/>
 		</inertial>
 	</link>
+-->
+<!-- DISABLED_ARM_REMOVAL_2026-04-27 (uncomment + re-run scripts/phase1/convert_urdf_to_usd.py to restore)
 	<link name="Frame_RA2">
 		<inertial>
 			<origin xyz="0 0 0" rpy="0 -0 0"/>
@@ -907,6 +940,8 @@
 			<inertia ixx="1.000000e-06" ixy="0" ixz="0" iyy="1.000000e-06" iyz="0" izz="1.000000e-06"/>
 		</inertial>
 	</link>
+-->
+<!-- DISABLED_ARM_REMOVAL_2026-04-27 (uncomment + re-run scripts/phase1/convert_urdf_to_usd.py to restore)
 	<link name="Frame_RA3">
 		<inertial>
 			<origin xyz="0 0 0" rpy="0 -0 0"/>
@@ -914,6 +949,8 @@
 			<inertia ixx="1.000000e-06" ixy="0" ixz="0" iyy="1.000000e-06" iyz="0" izz="1.000000e-06"/>
 		</inertial>
 	</link>
+-->
+<!-- DISABLED_ARM_REMOVAL_2026-04-27 (uncomment + re-run scripts/phase1/convert_urdf_to_usd.py to restore)
 	<link name="Frame_RA4">
 		<inertial>
 			<origin xyz="0 0 0" rpy="0 -0 0"/>
@@ -921,6 +958,8 @@
 			<inertia ixx="1.000000e-06" ixy="0" ixz="0" iyy="1.000000e-06" iyz="0" izz="1.000000e-06"/>
 		</inertial>
 	</link>
+-->
+<!-- DISABLED_ARM_REMOVAL_2026-04-27 (uncomment + re-run scripts/phase1/convert_urdf_to_usd.py to restore)
 	<link name="Frame_RA5">
 		<inertial>
 			<origin xyz="0 0 0" rpy="0 -0 0"/>
@@ -928,6 +967,8 @@
 			<inertia ixx="1.000000e-06" ixy="0" ixz="0" iyy="1.000000e-06" iyz="0" izz="1.000000e-06"/>
 		</inertial>
 	</link>
+-->
+<!-- DISABLED_ARM_REMOVAL_2026-04-27 (uncomment + re-run scripts/phase1/convert_urdf_to_usd.py to restore)
 	<link name="Frame_RA6">
 		<inertial>
 			<origin xyz="0 0 0" rpy="0 -0 0"/>
@@ -935,6 +976,8 @@
 			<inertia ixx="1.000000e-06" ixy="0" ixz="0" iyy="1.000000e-06" iyz="0" izz="1.000000e-06"/>
 		</inertial>
 	</link>
+-->
+<!-- DISABLED_ARM_REMOVAL_2026-04-27 (uncomment + re-run scripts/phase1/convert_urdf_to_usd.py to restore)
 	<link name="Frame_TURRET">
 		<inertial>
 			<origin xyz="0 0 0" rpy="0 -0 0"/>
@@ -942,6 +985,8 @@
 			<inertia ixx="1.000000e-06" ixy="0" ixz="0" iyy="1.000000e-06" iyz="0" izz="1.000000e-06"/>
 		</inertial>
 	</link>
+-->
+<!-- DISABLED_ARM_REMOVAL_2026-04-27 (uncomment + re-run scripts/phase1/convert_urdf_to_usd.py to restore)
 	<link name="Frame_DOCKING_POST">
 		<inertial>
 			<origin xyz="0 0 0" rpy="0 -0 0"/>
@@ -949,6 +994,8 @@
 			<inertia ixx="1.000000e-06" ixy="0" ixz="0" iyy="1.000000e-06" iyz="0" izz="1.000000e-06"/>
 		</inertial>
 	</link>
+-->
+<!-- DISABLED_ARM_REMOVAL_2026-04-27 (uncomment + re-run scripts/phase1/convert_urdf_to_usd.py to restore)
 	<link name="Frame_DRILL">
 		<inertial>
 			<origin xyz="0 0 0" rpy="0 -0 0"/>
@@ -956,6 +1003,8 @@
 			<inertia ixx="1.000000e-06" ixy="0" ixz="0" iyy="1.000000e-06" iyz="0" izz="1.000000e-06"/>
 		</inertial>
 	</link>
+-->
+<!-- DISABLED_ARM_REMOVAL_2026-04-27 (uncomment + re-run scripts/phase1/convert_urdf_to_usd.py to restore)
 	<link name="Frame_FCS">
 		<inertial>
 			<origin xyz="0 0 0" rpy="0 -0 0"/>
@@ -963,6 +1012,8 @@
 			<inertia ixx="1.000000e-06" ixy="0" ixz="0" iyy="1.000000e-06" iyz="0" izz="1.000000e-06"/>
 		</inertial>
 	</link>
+-->
+<!-- DISABLED_ARM_REMOVAL_2026-04-27 (uncomment + re-run scripts/phase1/convert_urdf_to_usd.py to restore)
 	<link name="Frame_GDRT">
 		<inertial>
 			<origin xyz="0 0 0" rpy="0 -0 0"/>
@@ -970,6 +1021,8 @@
 			<inertia ixx="1.000000e-06" ixy="0" ixz="0" iyy="1.000000e-06" iyz="0" izz="1.000000e-06"/>
 		</inertial>
 	</link>
+-->
+<!-- DISABLED_ARM_REMOVAL_2026-04-27 (uncomment + re-run scripts/phase1/convert_urdf_to_usd.py to restore)
 	<link name="Frame_PIXL">
 		<inertial>
 			<origin xyz="0 0 0" rpy="0 -0 0"/>
@@ -977,6 +1030,8 @@
 			<inertia ixx="1.000000e-06" ixy="0" ixz="0" iyy="1.000000e-06" iyz="0" izz="1.000000e-06"/>
 		</inertial>
 	</link>
+-->
+<!-- DISABLED_ARM_REMOVAL_2026-04-27 (uncomment + re-run scripts/phase1/convert_urdf_to_usd.py to restore)
 	<link name="Frame_SHERLOC">
 		<inertial>
 			<origin xyz="0 0 0" rpy="0 -0 0"/>
@@ -984,6 +1039,8 @@
 			<inertia ixx="1.000000e-06" ixy="0" ixz="0" iyy="1.000000e-06" iyz="0" izz="1.000000e-06"/>
 		</inertial>
 	</link>
+-->
+<!-- DISABLED_ARM_REMOVAL_2026-04-27 (uncomment + re-run scripts/phase1/convert_urdf_to_usd.py to restore)
 	<link name="Frame_WATSON">
 		<inertial>
 			<origin xyz="0 0 0" rpy="0 -0 0"/>
@@ -991,6 +1048,7 @@
 			<inertia ixx="1.000000e-06" ixy="0" ixz="0" iyy="1.000000e-06" iyz="0" izz="1.000000e-06"/>
 		</inertial>
 	</link>
+-->
 	<link name="Frame_CAL_MC1">
 		<inertial>
 			<origin xyz="0 0 0" rpy="0 -0 0"/>
@@ -1012,6 +1070,7 @@
 			<inertia ixx="1.000000e-06" ixy="0" ixz="0" iyy="1.000000e-06" iyz="0" izz="1.000000e-06"/>
 		</inertial>
 	</link>
+<!-- DISABLED_ARM_REMOVAL_2026-04-27 (uncomment + re-run scripts/phase1/convert_urdf_to_usd.py to restore)
 	<link name="Frame_CAL_PIXL">
 		<inertial>
 			<origin xyz="0 0 0" rpy="0 -0 0"/>
@@ -1019,6 +1078,8 @@
 			<inertia ixx="1.000000e-06" ixy="0" ixz="0" iyy="1.000000e-06" iyz="0" izz="1.000000e-06"/>
 		</inertial>
 	</link>
+-->
+<!-- DISABLED_ARM_REMOVAL_2026-04-27 (uncomment + re-run scripts/phase1/convert_urdf_to_usd.py to restore)
 	<link name="Frame_CAL_SHERLOC">
 		<inertial>
 			<origin xyz="0 0 0" rpy="0 -0 0"/>
@@ -1026,6 +1087,7 @@
 			<inertia ixx="1.000000e-06" ixy="0" ixz="0" iyy="1.000000e-06" iyz="0" izz="1.000000e-06"/>
 		</inertial>
 	</link>
+-->
 	<joint name="JointRoot" type="floating">
 		<origin xyz="0 0 0" rpy="0 -0 0"/>
 		<parent link="ground"/>
@@ -1169,11 +1231,14 @@
 		<axis xyz="1 0 0"/>
 		<limit lower="-1.79769e+308" upper="1.79769e+308" effort="1.79769e+308" velocity="1.79769e+308"/>
 	</joint>
+<!-- DISABLED_ARM_REMOVAL_2026-04-27 (uncomment + re-run scripts/phase1/convert_urdf_to_usd.py to restore)
 	<joint name="JointRobotArmBase" type="fixed">
 		<origin xyz="0.09002 0 -1.13338" rpy="0 -0 0"/>
 		<parent link="Body_Chassis"/>
 		<child link="Body_RA_Base"/>
 	</joint>
+-->
+<!-- DISABLED_ARM_REMOVAL_2026-04-27 (uncomment + re-run scripts/phase1/convert_urdf_to_usd.py to restore)
 	<joint name="JOINT1_ENC" type="revolute">
 		<origin xyz="1.1756 -0.4515 0.3116" rpy="0 -0 0"/>
 		<parent link="Body_RA_Base"/>
@@ -1181,6 +1246,8 @@
 		<axis xyz="0 0 1"/>
 		<limit lower="-3.145" upper="1.592" effort="1.79769e+308" velocity="1.79769e+308"/>
 	</joint>
+-->
+<!-- DISABLED_ARM_REMOVAL_2026-04-27 (uncomment + re-run scripts/phase1/convert_urdf_to_usd.py to restore)
 	<joint name="JOINT2_ENC" type="revolute">
 		<origin xyz="0.166 0 0" rpy="0 -0 0"/>
 		<parent link="Body_RA_Link1"/>
@@ -1188,6 +1255,8 @@
 		<axis xyz="0 -1 0"/>
 		<limit lower="-3.267" upper="0.126" effort="1.79769e+308" velocity="1.79769e+308"/>
 	</joint>
+-->
+<!-- DISABLED_ARM_REMOVAL_2026-04-27 (uncomment + re-run scripts/phase1/convert_urdf_to_usd.py to restore)
 	<joint name="JOINT3_ENC" type="revolute">
 		<origin xyz="0.8194 0 0" rpy="0 -0 0"/>
 		<parent link="Body_RA_Link2"/>
@@ -1195,6 +1264,8 @@
 		<axis xyz="0 -1 0"/>
 		<limit lower="-2.866" upper="2.866" effort="1.79769e+308" velocity="1.79769e+308"/>
 	</joint>
+-->
+<!-- DISABLED_ARM_REMOVAL_2026-04-27 (uncomment + re-run scripts/phase1/convert_urdf_to_usd.py to restore)
 	<joint name="JOINT4_ENC" type="revolute">
 		<origin xyz="0.7533 0 0" rpy="0 -0 0"/>
 		<parent link="Body_RA_Link3"/>
@@ -1202,6 +1273,8 @@
 		<axis xyz="0 -1 0"/>
 		<limit lower="-0.178" upper="3.669" effort="1.79769e+308" velocity="1.79769e+308"/>
 	</joint>
+-->
+<!-- DISABLED_ARM_REMOVAL_2026-04-27 (uncomment + re-run scripts/phase1/convert_urdf_to_usd.py to restore)
 	<joint name="JOINT5_ENC" type="revolute">
 		<origin xyz="-0.1757 0.1791 0" rpy="0 -0 0"/>
 		<parent link="Body_RA_Link4"/>
@@ -1209,11 +1282,15 @@
 		<axis xyz="0 0 1"/>
 		<limit lower="-0.353" upper="6.636" effort="1.79769e+308" velocity="1.79769e+308"/>
 	</joint>
+-->
+<!-- DISABLED_ARM_REMOVAL_2026-04-27 (uncomment + re-run scripts/phase1/convert_urdf_to_usd.py to restore)
 	<joint name="JointTurret" type="fixed">
 		<origin xyz="-2.7386 0.2724 -0.3116" rpy="0 -0 0"/>
 		<parent link="Body_RA_Link5"/>
 		<child link="Body_Turret"/>
 	</joint>
+-->
+<!-- DISABLED_ARM_REMOVAL_2026-04-27 (uncomment + re-run scripts/phase1/convert_urdf_to_usd.py to restore)
 	<joint name="DRILL_FEED" type="prismatic">
 		<origin xyz="2.5301 -0.272349 -0.0168656" rpy="0 -0 0"/>
 		<parent link="Body_Turret"/>
@@ -1221,6 +1298,8 @@
 		<axis xyz="1 0 0"/>
 		<limit lower="-1.79769e+308" upper="1.79769e+308" effort="1.79769e+308" velocity="1.79769e+308"/>
 	</joint>
+-->
+<!-- DISABLED_ARM_REMOVAL_2026-04-27 (uncomment + re-run scripts/phase1/convert_urdf_to_usd.py to restore)
 	<joint name="STABILIZER_LOWER" type="prismatic">
 		<origin xyz="2.5301 -0.272349 -0.0168656" rpy="0 -0 0"/>
 		<parent link="Body_Turret"/>
@@ -1228,6 +1307,8 @@
 		<axis xyz="-1 0 0"/>
 		<limit lower="-1.79769e+308" upper="1.79769e+308" effort="1.79769e+308" velocity="1.79769e+308"/>
 	</joint>
+-->
+<!-- DISABLED_ARM_REMOVAL_2026-04-27 (uncomment + re-run scripts/phase1/convert_urdf_to_usd.py to restore)
 	<joint name="STABILIZER_UPPER" type="prismatic">
 		<origin xyz="2.5301 -0.272349 -0.0168656" rpy="0 -0 0"/>
 		<parent link="Body_Turret"/>
@@ -1235,6 +1316,8 @@
 		<axis xyz="-1 0 0"/>
 		<limit lower="-1.79769e+308" upper="1.79769e+308" effort="1.79769e+308" velocity="1.79769e+308"/>
 	</joint>
+-->
+<!-- DISABLED_ARM_REMOVAL_2026-04-27 (uncomment + re-run scripts/phase1/convert_urdf_to_usd.py to restore)
 	<joint name="WATSON_CAP_ENC" type="revolute">
 		<origin xyz="2.6025 -0.581204 -0.0309103" rpy="0 -0 0"/>
 		<parent link="Body_Turret"/>
@@ -1242,6 +1325,8 @@
 		<axis xyz="0 0 -1"/>
 		<limit lower="-1.79769e+308" upper="1.79769e+308" effort="1.79769e+308" velocity="1.79769e+308"/>
 	</joint>
+-->
+<!-- DISABLED_ARM_REMOVAL_2026-04-27 (uncomment + re-run scripts/phase1/convert_urdf_to_usd.py to restore)
 	<joint name="SHERLOC_CAP_ENC" type="revolute">
 		<origin xyz="2.86084 -0.58439 0.0124626" rpy="0 -0 0"/>
 		<parent link="Body_Turret"/>
@@ -1249,6 +1334,7 @@
 		<axis xyz="0 0 -1"/>
 		<limit lower="-1.79769e+308" upper="1.79769e+308" effort="1.79769e+308" velocity="1.79769e+308"/>
 	</joint>
+-->
 	<joint name="Joint_for_Frame_RNAV" type="fixed">
 		<origin xyz="0 0 0" rpy="0 -0 0"/>
 		<parent link="Body_Chassis"/>
@@ -1554,81 +1640,111 @@
 		<parent link="Body_HGA_EL"/>
 		<child link="Frame_ANT"/>
 	</joint>
+<!-- DISABLED_ARM_REMOVAL_2026-04-27 (uncomment + re-run scripts/phase1/convert_urdf_to_usd.py to restore)
 	<joint name="Joint_for_Frame_RA_BASE" type="fixed">
 		<origin xyz="0.967871 -0.561 -0.90838" rpy="0 -0 0"/>
 		<parent link="Body_Chassis"/>
 		<child link="Frame_RA_BASE"/>
 	</joint>
+-->
+<!-- DISABLED_ARM_REMOVAL_2026-04-27 (uncomment + re-run scripts/phase1/convert_urdf_to_usd.py to restore)
 	<joint name="Joint_for_Frame_RA1" type="fixed">
 		<origin xyz="0 0 0" rpy="0 -0 0"/>
 		<parent link="Body_RA_Link1"/>
 		<child link="Frame_RA1"/>
 	</joint>
+-->
+<!-- DISABLED_ARM_REMOVAL_2026-04-27 (uncomment + re-run scripts/phase1/convert_urdf_to_usd.py to restore)
 	<joint name="Joint_for_Frame_RA2" type="fixed">
 		<origin xyz="0 0 0" rpy="1.5708 -0 0"/>
 		<parent link="Body_RA_Link2"/>
 		<child link="Frame_RA2"/>
 	</joint>
+-->
+<!-- DISABLED_ARM_REMOVAL_2026-04-27 (uncomment + re-run scripts/phase1/convert_urdf_to_usd.py to restore)
 	<joint name="Joint_for_Frame_RA3" type="fixed">
 		<origin xyz="0 0 0" rpy="1.5708 -0 0"/>
 		<parent link="Body_RA_Link3"/>
 		<child link="Frame_RA3"/>
 	</joint>
+-->
+<!-- DISABLED_ARM_REMOVAL_2026-04-27 (uncomment + re-run scripts/phase1/convert_urdf_to_usd.py to restore)
 	<joint name="Joint_for_Frame_RA4" type="fixed">
 		<origin xyz="0 0 0" rpy="1.5708 -0 0"/>
 		<parent link="Body_RA_Link4"/>
 		<child link="Frame_RA4"/>
 	</joint>
+-->
+<!-- DISABLED_ARM_REMOVAL_2026-04-27 (uncomment + re-run scripts/phase1/convert_urdf_to_usd.py to restore)
 	<joint name="Joint_for_Frame_RA5" type="fixed">
 		<origin xyz="0 0 0" rpy="0 -0 0"/>
 		<parent link="Body_RA_Link5"/>
 		<child link="Frame_RA5"/>
 	</joint>
+-->
+<!-- DISABLED_ARM_REMOVAL_2026-04-27 (uncomment + re-run scripts/phase1/convert_urdf_to_usd.py to restore)
 	<joint name="Joint_for_Frame_RA6" type="fixed">
 		<origin xyz="0 0 -0.208" rpy="0 -0 0"/>
 		<parent link="Body_RA_Link5"/>
 		<child link="Frame_RA6"/>
 	</joint>
+-->
+<!-- DISABLED_ARM_REMOVAL_2026-04-27 (uncomment + re-run scripts/phase1/convert_urdf_to_usd.py to restore)
 	<joint name="Joint_for_Frame_TURRET" type="fixed">
 		<origin xyz="0 0 -0.3285" rpy="0 -0 0"/>
 		<parent link="Body_RA_Link5"/>
 		<child link="Frame_TURRET"/>
 	</joint>
+-->
+<!-- DISABLED_ARM_REMOVAL_2026-04-27 (uncomment + re-run scripts/phase1/convert_urdf_to_usd.py to restore)
 	<joint name="Joint_for_Frame_DOCKING_POST" type="fixed">
 		<origin xyz="0.29715 0 -0.3285" rpy="0 -0 0"/>
 		<parent link="Body_RA_Link5"/>
 		<child link="Frame_DOCKING_POST"/>
 	</joint>
+-->
+<!-- DISABLED_ARM_REMOVAL_2026-04-27 (uncomment + re-run scripts/phase1/convert_urdf_to_usd.py to restore)
 	<joint name="Joint_for_Frame_DRILL" type="fixed">
 		<origin xyz="0.373 0 -0.3285" rpy="0 -0 0"/>
 		<parent link="Body_RA_Link5"/>
 		<child link="Frame_DRILL"/>
 	</joint>
+-->
+<!-- DISABLED_ARM_REMOVAL_2026-04-27 (uncomment + re-run scripts/phase1/convert_urdf_to_usd.py to restore)
 	<joint name="Joint_for_Frame_FCS" type="fixed">
 		<origin xyz="-0.37138 0 -0.2704" rpy="0 -0 3.14159"/>
 		<parent link="Body_RA_Link5"/>
 		<child link="Frame_FCS"/>
 	</joint>
+-->
+<!-- DISABLED_ARM_REMOVAL_2026-04-27 (uncomment + re-run scripts/phase1/convert_urdf_to_usd.py to restore)
 	<joint name="Joint_for_Frame_GDRT" type="fixed">
 		<origin xyz="-0.283436 0.237831 -0.2625" rpy="0 -0 2.44346"/>
 		<parent link="Body_RA_Link5"/>
 		<child link="Frame_GDRT"/>
 	</joint>
+-->
+<!-- DISABLED_ARM_REMOVAL_2026-04-27 (uncomment + re-run scripts/phase1/convert_urdf_to_usd.py to restore)
 	<joint name="Joint_for_Frame_PIXL" type="fixed">
 		<origin xyz="0 0.3577 -0.3385" rpy="0 -0 1.5708"/>
 		<parent link="Body_RA_Link5"/>
 		<child link="Frame_PIXL"/>
 	</joint>
+-->
+<!-- DISABLED_ARM_REMOVAL_2026-04-27 (uncomment + re-run scripts/phase1/convert_urdf_to_usd.py to restore)
 	<joint name="Joint_for_Frame_SHERLOC" type="fixed">
 		<origin xyz="0.143585 -0.305411 -0.292126" rpy="0 -0 -1.22173"/>
 		<parent link="Body_RA_Link5"/>
 		<child link="Frame_SHERLOC"/>
 	</joint>
+-->
+<!-- DISABLED_ARM_REMOVAL_2026-04-27 (uncomment + re-run scripts/phase1/convert_urdf_to_usd.py to restore)
 	<joint name="Joint_for_Frame_WATSON" type="fixed">
 		<origin xyz="-0.115541 -0.317445 -0.342785" rpy="0 0 -1.91986"/>
 		<parent link="Body_RA_Link5"/>
 		<child link="Frame_WATSON"/>
 	</joint>
+-->
 	<joint name="Joint_for_Frame_CAL_MC1" type="fixed">
 		<origin xyz="-0.28518 0.414008 -1.30252" rpy="3.14159 -0 0"/>
 		<parent link="Body_Chassis"/>
@@ -1644,14 +1760,18 @@
 		<parent link="Body_Chassis"/>
 		<child link="Frame_CAL_SC"/>
 	</joint>
+<!-- DISABLED_ARM_REMOVAL_2026-04-27 (uncomment + re-run scripts/phase1/convert_urdf_to_usd.py to restore)
 	<joint name="Joint_for_Frame_CAL_PIXL" type="fixed">
 		<origin xyz="-0.1082 -0.01669 -0.025" rpy="0 -0 2.61799"/>
 		<parent link="Body_RA_Link1"/>
 		<child link="Frame_CAL_PIXL"/>
 	</joint>
+-->
+<!-- DISABLED_ARM_REMOVAL_2026-04-27 (uncomment + re-run scripts/phase1/convert_urdf_to_usd.py to restore)
 	<joint name="Joint_for_Frame_CAL_SHERLOC" type="fixed">
 		<origin xyz="1.32087 0.488 -0.87888" rpy="0 -0 0"/>
 		<parent link="Body_Chassis"/>
 		<child link="Frame_CAL_SHERLOC"/>
 	</joint>
+-->
 </robot>

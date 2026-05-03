@@ -1,147 +1,135 @@
 {
-  "asset": {
-    "generator": "glTF-Transform v0.9.6",
-    "version": "2.0"
-  },
-  "accessors": [
-    {
-      "type": "VEC3",
-      "componentType": 5126,
-      "count": 946,
-      "max": [
-        0.375,
-        0.01597829908132553,
-        0.09449149668216705
-      ],
-      "min": [
-        -0.18199999630451202,
-        -0.015995800495147705,
-        0.06594999879598618
-      ],
-      "normalized": false,
-      "bufferView": 0,
-      "byteOffset": 0
-    },
-    {
-      "type": "VEC2",
-      "componentType": 5126,
-      "count": 946,
-      "max": [
-        0.07410089671611786,
-        0.003998994827270508
-      ],
-      "min": [
-        0.0741007998585701,
-        0.003998994827270508
-      ],
-      "normalized": false,
-      "bufferView": 0,
-      "byteOffset": 12
-    },
-    {
-      "type": "SCALAR",
-      "componentType": 5123,
-      "count": 5604,
-      "max": [
-        945
-      ],
-      "min": [
-        0
-      ],
-      "normalized": false,
-      "bufferView": 1,
-      "byteOffset": 0
-    }
-  ],
-  "bufferViews": [
-    {
-      "buffer": 0,
-      "byteOffset": 0,
-      "byteLength": 18920,
-      "byteStride": 20,
-      "target": 34962
-    },
-    {
-      "buffer": 0,
-      "byteOffset": 18920,
-      "byteLength": 11208,
-      "target": 34963
-    }
-  ],
-  "samplers": [
-    {
-      "wrapS": 10497,
-      "wrapT": 10497
-    }
-  ],
-  "textures": [
-    {
-      "source": 0,
-      "sampler": 0
-    }
-  ],
-  "images": [
-    {
-      "mimeType": "image/jpeg",
-      "uri": "Textures/M2020_Rover_Texture.jpg"
-    }
-  ],
-  "buffers": [
-    {
-      "uri": "StabilizerFarInTurret.bin",
-      "byteLength": 30128
-    }
-  ],
-  "materials": [
-    {
-      "alphaMode": "OPAQUE",
-      "doubleSided": false,
-      "pbrMetallicRoughness": {
-        "baseColorFactor": [
-          1,
-          1,
-          1,
-          1
-        ],
-        "roughnessFactor": 1,
-        "metallicFactor": 0,
-        "baseColorTexture": {
-          "index": 0,
-          "texCoord": 0
-        }
-      },
-      "emissiveFactor": [
-        0,
-        0,
-        0
-      ]
-    }
-  ],
-  "meshes": [
-    {
-      "primitives": [
-        {
-          "attributes": {
-            "POSITION": 0,
-            "TEXCOORD_0": 1
-          },
-          "mode": 4,
-          "material": 0,
-          "indices": 2
-        }
-      ]
-    }
-  ],
-  "nodes": [
-    {
-      "mesh": 0
-    }
-  ],
-  "scenes": [
-    {
-      "nodes": [
-        0
-      ]
-    }
-  ]
+	"asset":{
+		"generator":"Khronos glTF Blender I/O v4.0.44",
+		"version":"2.0"
+	},
+	"scene":0,
+	"scenes":[
+		{
+			"name":"Scene",
+			"nodes":[
+				0
+			]
+		}
+	],
+	"nodes":[
+		{
+			"mesh":0,
+			"name":"Mesh_0"
+		}
+	],
+	"materials":[
+		{
+			"name":"Material_0",
+			"pbrMetallicRoughness":{
+				"baseColorTexture":{
+					"index":0
+				},
+				"metallicFactor":0
+			}
+		}
+	],
+	"meshes":[
+		{
+			"name":"Mesh_0",
+			"primitives":[
+				{
+					"attributes":{
+						"POSITION":0,
+						"NORMAL":1,
+						"TEXCOORD_0":2
+					},
+					"indices":3,
+					"material":0
+				}
+			]
+		}
+	],
+	"textures":[
+		{
+			"sampler":0,
+			"source":0
+		}
+	],
+	"images":[
+		{
+			"mimeType":"image/jpeg",
+			"name":"M2020_Rover_Texture",
+			"uri":"M2020_Rover_Texture.jpg"
+		}
+	],
+	"accessors":[
+		{
+			"bufferView":0,
+			"componentType":5126,
+			"count":5540,
+			"max":[
+				0.375,
+				0.015995793044567108,
+				-0.06594999879598618
+			],
+			"min":[
+				-0.18199999630451202,
+				-0.015978306531906128,
+				-0.09449149668216705
+			],
+			"type":"VEC3"
+		},
+		{
+			"bufferView":1,
+			"componentType":5126,
+			"count":5540,
+			"type":"VEC3"
+		},
+		{
+			"bufferView":2,
+			"componentType":5126,
+			"count":5540,
+			"type":"VEC2"
+		},
+		{
+			"bufferView":3,
+			"componentType":5123,
+			"count":5604,
+			"type":"SCALAR"
+		}
+	],
+	"bufferViews":[
+		{
+			"buffer":0,
+			"byteLength":66480,
+			"byteOffset":0,
+			"target":34962
+		},
+		{
+			"buffer":0,
+			"byteLength":66480,
+			"byteOffset":66480,
+			"target":34962
+		},
+		{
+			"buffer":0,
+			"byteLength":44320,
+			"byteOffset":132960,
+			"target":34962
+		},
+		{
+			"buffer":0,
+			"byteLength":11208,
+			"byteOffset":177280,
+			"target":34963
+		}
+	],
+	"samplers":[
+		{
+			"magFilter":9729,
+			"minFilter":9987
+		}
+	],
+	"buffers":[
+		{
+			"byteLength":188488,
+			"uri":"StabilizerFarInTurret.bin"
+		}
+	]
 }

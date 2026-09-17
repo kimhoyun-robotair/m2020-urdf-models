@@ -12,9 +12,9 @@
 	</link>
 	<link name="Body_Chassis">
 		<inertial>
-			<origin xyz="0.09002 0 1.13338" rpy="0 0 0" />
+			<origin xyz="-0.0616804259127 -0.0597322696536 1.14656334138" rpy="0 0 0" />
 			<mass value="670.0000" />
-			<inertia ixx="165.2667" ixy="0" ixz="0" iyy="279.1667" iyz="0" izz="332.7667" />
+			<inertia ixx="156.422067927" ixy="5.36567679053" ixz="26.0521844297" iyy="410.082496743" iyz="13.9664085893" izz="454.398879754" />
 		</inertial>
 		<visual name="VisGeom_CHASSIS">
 			<origin xyz="0.09002 0 1.13338" rpy="0 0 0" />
@@ -33,9 +33,9 @@
 	</link>
 	<link name="Body_Differential">
 		<inertial>
-			<origin xyz="0.142 0 0" rpy="0 0 0" />
+			<origin xyz="-0.00110855464808 -0.000755494140991 0.0302376324845" rpy="0 0 0" />
 			<mass value="8.0000" />
-			<inertia ixx="1.506667" ixy="0" ixz="0" iyy="0.1733333" iyz="0" izz="1.666667" />
+			<inertia ixx="0.64427783631" ixy="-0.00021082433694" ixz="-1.5312522085e-05" iyy="0.0133674469601" iyz="-0.000133814653874" izz="0.653304391723" />
 		</inertial>
 		<visual name="VisGeom_CenterDifferential">
 			<origin xyz="0.142 0 0" rpy="0 0 0" />
@@ -46,9 +46,9 @@
 	</link>
 	<link name="Body_RockerLeft">
 		<inertial>
-			<origin xyz="-0.214 -0.79959 0.2405" rpy="0 0 0" />
+			<origin xyz="-0.0124858969119 0.105121853361 -0.128727598934" rpy="0 0 0" />
 			<mass value="18.0000" />
-			<inertia ixx="0.255" ixy="0" ixz="0" iyy="3.615" iyz="0" izz="3.39" />
+			<inertia ixx="0.299715438331" ixy="-0.416464328817" ixz="-0.119643247371" iyy="3.48848518227" iyz="0.0381288961319" izz="3.53268140064" />
 		</inertial>
 		<visual name="VisGeom_Left_Rocker">
 			<origin xyz="-0.214 -0.79959 0.2405" rpy="0 0 0" />
@@ -59,9 +59,9 @@
 	</link>
 	<link name="Body_BogieLeft">
 		<inertial>
-			<origin xyz="0.54 -0.91959 0.4705" rpy="0 0 0" />
+			<origin xyz="-0.00455380522796 0.0824952144585 -0.119785098185" rpy="0 0 0" />
 			<mass value="12.0000" />
-			<inertia ixx="0.1" ixy="0" ixz="0" iyy="1.09" iyz="0" izz="1.01" />
+			<inertia ixx="0.397552556621" ixy="0.0059566519429" ixz="0.418372856803" iyy="1.31902279165" iyz="0.067260575055" izz="1.20892748474" />
 		</inertial>
 		<visual name="VisGeom_Left_Bogie">
 			<origin xyz="0.54 -0.91959 0.4705" rpy="0 0 0" />
@@ -72,9 +72,9 @@
 	</link>
 	<link name="Body_SteerLeftRear">
 		<inertial>
-			<origin xyz="1.165 -1.0625 0.8705" rpy="0 0 0" />
+			<origin xyz="-0.000555655693964 -0.0866987355927 0.205186888822" rpy="0 0 0" />
 			<mass value="4.0000" />
-			<inertia ixx="0.02833333" ixy="0" ixz="0" iyy="0.02833333" iyz="0" izz="0.015" />
+			<inertia ixx="0.104751680495" ixy="-3.92533552721e-06" ixz="0.000308069640829" iyy="0.0666647288353" iyz="0.000202989547116" izz="0.0523484495752" />
 		</inertial>
 		<visual name="VisGeom_Steer_LeftRear">
 			<origin xyz="1.165 -1.0625 0.8705" rpy="0 0 0" />
@@ -85,9 +85,9 @@
 	</link>
 	<link name="Body_WheelLeftRear">
 		<inertial>
-			<origin xyz="1.165 -1.0625 0.8705" rpy="0 0 0" />
+			<origin xyz="-0.00019999831196 8.43466609127e-05 -0.000412592352192" rpy="0 0 0" />
 			<mass value="30.0000" />
-			<inertia ixx="1.089063" ixy="0" ixz="0" iyy="1.378125" iyz="0" izz="1.089063" />
+			<inertia ixx="0.739032022694" ixy="7.44333742776e-07" ixz="-1.12446261663e-06" iyy="0.94150684541" iyz="-4.93316657039e-07" izz="0.739029681445" />
 		</inertial>
 		<visual name="VisGeom_Wheel_LeftRear">
 			<origin xyz="1.165 -1.0625 0.8705" rpy="0 0 0" />
@@ -98,9 +98,9 @@
 	</link>
 	<link name="Body_WheelLeftMiddle">
 		<inertial>
-			<origin xyz="0.09002 -1.1845 0.8705" rpy="0 0 0" />
+			<origin xyz="-0.00017998675059 -0.00191641913796 -0.000412267269245" rpy="0 0 0" />
 			<mass value="30.0000" />
-			<inertia ixx="1.089063" ixy="0" ixz="0" iyy="1.378125" iyz="0" izz="1.089063" />
+			<inertia ixx="0.739035762448" ixy="-1.50811542059e-07" ixz="-7.17090750685e-07" iyy="0.941508526631" iyz="1.99611633834e-09" izz="0.739033142206" />
 		</inertial>
 		<visual name="VisGeom_Wheel_LeftMiddle">
 			<origin xyz="0.09002 -1.1845 0.8705" rpy="0 0 0" />
@@ -111,9 +111,9 @@
 	</link>
 	<link name="Body_SteerLeftFront">
 		<inertial>
-			<origin xyz="-1.095 -1.0625 0.8705" rpy="0 0 0" />
+			<origin xyz="-0.00165375555863 -0.10602515746 0.235112538601" rpy="0 0 0" />
 			<mass value="4.0000" />
-			<inertia ixx="0.02833333" ixy="0" ixz="0" iyy="0.02833333" iyz="0" izz="0.015" />
+			<inertia ixx="0.135386567059" ixy="-0.000915710967072" ixz="-0.000914350749516" iyy="0.0797530693476" iyz="-0.00635529757435" izz="0.0717737143512" />
 		</inertial>
 		<visual name="VisGeom_Steer_LeftFront">
 			<origin xyz="-1.095 -1.0625 0.8705" rpy="0 0 0" />
@@ -124,9 +124,9 @@
 	</link>
 	<link name="Body_WheelLeftFront">
 		<inertial>
-			<origin xyz="-1.095 -1.0625 0.8705" rpy="0 0 0" />
+			<origin xyz="-0.000200272446902 8.42844925064e-05 -0.000412454478505" rpy="0 0 0" />
 			<mass value="30.0000" />
-			<inertia ixx="1.089063" ixy="0" ixz="0" iyy="1.378125" iyz="0" izz="1.089063" />
+			<inertia ixx="0.739032286196" ixy="2.67517555185e-07" ixz="-4.5687581983e-07" iyy="0.941508138684" iyz="-3.75280814735e-07" izz="0.739030751486" />
 		</inertial>
 		<visual name="VisGeom_Wheel_LeftFront">
 			<origin xyz="-1.095 -1.0625 0.8705" rpy="0 0 0" />
@@ -137,9 +137,9 @@
 	</link>
 	<link name="Body_RockerRight">
 		<inertial>
-			<origin xyz="-0.214 0.79959 0.2405" rpy="0 0 0" />
+			<origin xyz="-0.012485917047 -0.10512187919 -0.128727440838" rpy="0 0 0" />
 			<mass value="18.0000" />
-			<inertia ixx="0.255" ixy="0" ixz="0" iyy="3.615" iyz="0" izz="3.39" />
+			<inertia ixx="0.299715412906" ixy="0.416464239707" ixz="-0.119643352628" iyy="3.48848487386" iyz="-0.0381289015931" izz="3.53268105938" />
 		</inertial>
 		<visual name="VisGeom_Right_Rocker">
 			<origin xyz="-0.214 0.79959 0.2405" rpy="0 0 0" />
@@ -150,9 +150,9 @@
 	</link>
 	<link name="Body_BogieRight">
 		<inertial>
-			<origin xyz="0.54 0.91959 0.4705" rpy="0 0 0" />
+			<origin xyz="-0.00455374825191 -0.0824953291037 -0.119784949329" rpy="0 0 0" />
 			<mass value="12.0000" />
-			<inertia ixx="0.1" ixy="0" ixz="0" iyy="1.09" iyz="0" izz="1.01" />
+			<inertia ixx="0.397552548249" ixy="-0.00595651203931" ixz="0.418372850579" iyy="1.31902269724" iyz="-0.0672606047608" izz="1.20892745041" />
 		</inertial>
 		<visual name="VisGeom_Right_Bogie">
 			<origin xyz="0.54 0.91959 0.4705" rpy="0 0 0" />
@@ -163,9 +163,9 @@
 	</link>
 	<link name="Body_SteerRightRear">
 		<inertial>
-			<origin xyz="1.165 1.0625 0.8705" rpy="0 0 0" />
+			<origin xyz="-0.000555654823852 0.0866986362485 0.20518703327" rpy="0 0 0" />
 			<mass value="4.0000" />
-			<inertia ixx="0.02833333" ixy="0" ixz="0" iyy="0.02833333" iyz="0" izz="0.015" />
+			<inertia ixx="0.104751669693" ixy="3.92532852614e-06" ixz="0.000308069239306" iyy="0.0666647234093" iyz="-0.000202999509799" izz="0.0523484431354" />
 		</inertial>
 		<visual name="VisGeom_Steer_RightRear">
 			<origin xyz="1.165 1.0625 0.8705" rpy="0 0 0" />
@@ -176,9 +176,9 @@
 	</link>
 	<link name="Body_WheelRightRear">
 		<inertial>
-			<origin xyz="1.165 1.0625 0.8705" rpy="0 0 0" />
+			<origin xyz="-0.000189442957109 -9.45490997366e-05 -0.000413079397526" rpy="0 0 0" />
 			<mass value="30.0000" />
-			<inertia ixx="1.089063" ixy="0" ixz="0" iyy="1.378125" iyz="0" izz="1.089063" />
+			<inertia ixx="0.739031186865" ixy="9.13646933792e-08" ixz="4.10003166925e-07" iyy="0.941506056816" iyz="1.57612124615e-07" izz="0.73903028153" />
 		</inertial>
 		<visual name="VisGeom_Wheel_RightRear">
 			<origin xyz="1.165 1.0625 0.8705" rpy="0 0 0" />
@@ -189,9 +189,9 @@
 	</link>
 	<link name="Body_WheelRightMiddle">
 		<inertial>
-			<origin xyz="0.09002 1.1845 0.8705" rpy="0 0 0" />
+			<origin xyz="-0.000179882133455 -8.36923229183e-05 -0.000411687623834" rpy="0 0 0" />
 			<mass value="30.0000" />
-			<inertia ixx="1.089063" ixy="0" ixz="0" iyy="1.378125" iyz="0" izz="1.089063" />
+			<inertia ixx="0.739033505738" ixy="-7.57334377972e-08" ixz="1.00658398359e-06" iyy="0.941506257135" iyz="6.36735628656e-08" izz="0.739033418882" />
 		</inertial>
 		<visual name="VisGeom_Wheel_RightMiddle">
 			<origin xyz="0.09002 1.1845 0.8705" rpy="0 0 0" />
@@ -202,9 +202,9 @@
 	</link>
 	<link name="Body_SteerRightFront">
 		<inertial>
-			<origin xyz="-1.095 1.0625 0.8705" rpy="0 0 0" />
+			<origin xyz="-0.00165375575058 0.106025068075 0.235112685754" rpy="0 0 0" />
 			<mass value="4.0000" />
-			<inertia ixx="0.02833333" ixy="0" ixz="0" iyy="0.02833333" iyz="0" izz="0.015" />
+			<inertia ixx="0.135386559259" ixy="0.00091571045796" ixz="-0.00091435074293" iyy="0.0797530731949" iyz="0.00635528741176" izz="0.071773701357" />
 		</inertial>
 		<visual name="VisGeom_Steer_RightFront">
 			<origin xyz="-1.095 1.0625 0.8705" rpy="0 0 0" />
@@ -215,9 +215,9 @@
 	</link>
 	<link name="Body_WheelRightFront">
 		<inertial>
-			<origin xyz="-1.095 1.0625 0.8705" rpy="0 0 0" />
+			<origin xyz="-0.000200025016054 -8.44981643443e-05 -0.000413118311711" rpy="0 0 0" />
 			<mass value="30.0000" />
-			<inertia ixx="1.089063" ixy="0" ixz="0" iyy="1.378125" iyz="0" izz="1.089063" />
+			<inertia ixx="0.739030303742" ixy="8.26972827642e-07" ixz="5.67194858693e-07" iyy="0.941505910541" iyz="2.44108502703e-07" izz="0.739030383361" />
 		</inertial>
 		<visual name="VisGeom_Wheel_RightFront">
 			<origin xyz="-1.095 1.0625 0.8705" rpy="0 0 0" />
@@ -228,9 +228,9 @@
 	</link>
 	<link name="Body_RSM_AZ">
 		<inertial>
-			<origin xyz="-0.714017 0.559028 -0.78589" rpy="0 0 0" />
+			<origin xyz="1.98392925095e-06 0.00110882600087 -0.135211798324" rpy="0 0 0" />
 			<mass value="2.0000" />
-			<inertia ixx="0.02166667" ixy="0" ixz="0" iyy="0.02166667" iyz="0" izz="0.01333333" />
+			<inertia ixx="0.0134334118923" ixy="8.36472976706e-06" ixz="1.39795053886e-06" iyy="0.0138709222105" iyz="-0.000278980456558" izz="0.00975076920144" />
 		</inertial>
 		<visual name="VisGeom_RSM">
 			<origin xyz="-0.714017 0.559028 -0.78589" rpy="0 0 0" />
@@ -241,9 +241,9 @@
 	</link>
 	<link name="Body_RSM_EL">
 		<inertial>
-			<origin xyz="-0.714017 0.559028 -0.78589" rpy="0 0 0" />
+			<origin xyz="-0.00646487251788 0.0234912063723 0.116260985305" rpy="0 0 0" />
 			<mass value="8.0000" />
-			<inertia ixx="0.1666667" ixy="0" ixz="0" iyy="0.1666667" iyz="0" izz="0.2133333" />
+			<inertia ixx="0.259514188269" ixy="0.00140894315026" ixz="0.00687704857807" iyy="0.144322396373" iyz="0.0272938820808" izz="0.21057226056" />
 		</inertial>
 		<visual name="VisGeom_RSM_HEAD">
 			<origin xyz="-0.714017 0.559028 -0.78589" rpy="0 0 0" />
@@ -254,9 +254,9 @@
 	</link>
 	<link name="Body_HGA_AZ">
 		<inertial>
-			<origin xyz="0.46 -0.475 0.0005" rpy="0 0 0" />
+			<origin xyz="-0.0330354021133 -7.40575000865e-05 0.18204483837" rpy="0 0 0" />
 			<mass value="1.0000" />
-			<inertia ixx="0.00375" ixy="0" ixz="0" iyy="0.00375" iyz="0" izz="0.00375" />
+			<inertia ixx="0.00399245983296" ixy="-1.47436478624e-06" ixz="0.000892817921211" iyy="0.00791622313787" iyz="3.39863011067e-06" izz="0.0063743494055" />
 		</inertial>
 		<visual name="VisGeom_HGA_AZ">
 			<origin xyz="0.46 -0.475 0.0005" rpy="0 0 0" />
@@ -267,9 +267,9 @@
 	</link>
 	<link name="Body_HGA_EL">
 		<inertial>
-			<origin xyz="0.46 -0.475 -0.2475" rpy="0 0 0" />
+			<origin xyz="0.192839295179 -0.00764753887142 -0.0071191222778" rpy="0 0 0" />
 			<mass value="4.0000" />
-			<inertia ixx="0.03083333" ixy="0" ixz="0" iyy="0.03083333" iyz="0" izz="0.06" />
+			<inertia ixx="0.0195988886861" ixy="-0.00130520585198" ixz="-0.00129576246668" iyy="0.0298164502562" iyz="0.00601663759465" izz="0.0297520821793" />
 		</inertial>
 		<visual name="VisGeom_HGA_EL">
 			<origin xyz="0.46 -0.475 -0.2475" rpy="0 0 0" />
